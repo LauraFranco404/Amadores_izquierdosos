@@ -1,1 +1,1 @@
-Nestor NO es comunista
+Nestor es el más comunista del Universo.

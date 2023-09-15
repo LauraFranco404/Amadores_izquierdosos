@@ -1,1 +1,1 @@
-Nestor es comunista
+Nestor NO es comunista

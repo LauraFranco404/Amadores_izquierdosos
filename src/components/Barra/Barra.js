@@ -23,9 +23,7 @@ function Barra({page, getData}){
         <div className={styles.barraB}>
           <IconLink /> {/* Usa el componente IconLink aquí */}
             <Link to={"/"} className= {`${styles.estiloElemento} ${selectedLink === "/" ? styles.estiloSeleccion: ""}`}>
-                <h1>
-                    Inicio
-                </h1>
+                Inicio
             </Link>
 
             <Link to={"/About"} className={`${styles.estiloElemento} ${selectedLink === "/About" ? styles.estiloSeleccion: ""}`}>

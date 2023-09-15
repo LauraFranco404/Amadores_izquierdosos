@@ -17,6 +17,7 @@ function Barra({page, getData}){
         setSelectedLink(location.pathname);
     }, [location.pathname])
    return(
+    //nav
     <div>
       <div className={styles.estiloPage}>
         <div className={styles.barraB}>
@@ -37,19 +38,19 @@ function Barra({page, getData}){
                 <h1>
                     Tiendas
                 </h1>
-          </Link>
+            </Link>
 
-          <Link to={"/Discover"} className={`${styles.estiloElemento} ${selectedLink === "/Discover" ? styles.estiloSeleccion: ""}`}>
+            <Link to={"/Discover"} className={`${styles.estiloElemento} ${selectedLink === "/Discover" ? styles.estiloSeleccion: ""}`}>
                 <h1>
                     Conócenos
                 </h1>
-          </Link>
+            </Link>
 
-          <Link to={"/Help"} className={`${styles.estiloElemento} ${selectedLink === "/Help" ? styles.estiloSeleccion: ""}`}>
+            <Link to={"/Help"} className={`${styles.estiloElemento} ${selectedLink === "/Help" ? styles.estiloSeleccion: ""}`}>
                 <h1>
                     Ayuda
                 </h1>
-          </Link>
+            </Link>
 
             <Link to={"/Login"}>
                 <button className={`${styles.estiloLogIn} ${selectedLink === "/Login" ? styles.estiloLogInSeleccion: ""}`}>
@@ -58,7 +59,6 @@ function Barra({page, getData}){
                     </h1>
                 </button>
             </Link>
-
         </div>
       </div>
     </div>

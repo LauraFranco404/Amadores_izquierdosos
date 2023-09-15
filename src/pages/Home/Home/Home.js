@@ -5,12 +5,10 @@ import Barra from "../../../components/Barra/Barra"
 import { Link } from "react-router-dom";
 
 const Imagen = () => {
-    return (
-      <Link to="/">
-          <img src="/imagen1.jpeg" alt="Icono" className="imagenes"/> {/* Cambia la ruta según la ubicación de tu favicon.ico */}
-      </Link>
-    );
-  }
+  return (
+    <img src="/imagen1.jpeg" alt="Icono" className="imagenes"/>
+  );
+}
 // Define el componente IconLink fuera de la función Home
 
 

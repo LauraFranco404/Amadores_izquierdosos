@@ -21,7 +21,7 @@ function Login() {
         </div>
         <div>
           <div className="celda">
-            <input type="text" placeholder="Contraseña" />
+            <input type="password" placeholder="Contraseña" />
           </div>
         </div>
       </div>

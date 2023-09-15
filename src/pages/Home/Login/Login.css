@@ -13,8 +13,7 @@
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-
-.tabla {
+.tabla{
     width: 45%;
     border-collapse: collapse;
     border: 6px solid;
@@ -22,19 +21,17 @@
     margin: 0 auto;
   }
   
-  /* Estilos para las celdas */
-.celda {
+.celda{
     border: 6px solid;
-    border-color: #5D3810; /* Establece el ancho del borde */
+    border-color: #5D3810;
     padding: 20px;
 }
   
-  /* Estilos para los input */
-input {
+input{
     width: 100%;
     font-size: 50px;
     color:#A29182;
-    border: none; /* Elimina los bordes del input */
+    border: none; 
     outline: none; /* Elimina el borde de enfoque al hacer clic */
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -49,3 +46,5 @@ input {
     font-size: 30px;
     color:#5D3810;
 }
+
+/*space between*/

@@ -18,11 +18,11 @@
 }
 
 .contenedorImagenes{
-    display: flex; /* Utiliza un contenedor flex para alinear las imágenes */
+    display: flex;
 }
   
 .imagenes{
     width: 250px;
     height: 250px;
-    margin-right: 10px; /* Añade un margen derecho entre las imágenes (opcional) */
+    margin-right: 10px;
   }

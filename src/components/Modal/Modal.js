@@ -1,8 +1,10 @@
 import styles from './Modal.module.css';
-function Modal(){
+function Modal({onClose}){
     return(
         <div className={styles.container}>
-            <div className={styles.window}></div>
+            <div className={styles.window}>
+                
+            </div>
 
         </div>
     );

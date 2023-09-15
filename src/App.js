@@ -1,13 +1,21 @@
 import './App.css';
+//import React, {useState} from 'react';
 import {Route, Routes} from 'react-router-dom'
 import Home from './pages/Home/Home/Home';
 import About from './pages/Home/About/About';
 import Stores from './pages/Home/Stores/Stores';
-import Discover from './pages/Home/Discover/Disvover';
+import Discover from './pages/Home/Discover/Discover';
 import Help from './pages/Home/Help/Help';
 import Login from './pages/Home/Login/Login';
-/*import Modal from './components/Modal/Modal';*/
+//import Modal from './components/Modal/Modal';
+
 function App(){
+  //const [showModal, setShowModal] = useState(true);
+
+  /*const onCloseModal = () => {
+    setShowModal(false);
+  }
+  */
 
   return (
       <div className="App">
@@ -20,20 +28,17 @@ function App(){
           <Route path="/login" element = {<Login/>}/>
           </Routes>
         
-        {/*<Modal>
-        </Modal>}*/}
-        {/*<h1 className="Title">Hola, mundo</h1>
-        {posts.map(p=> (
-          <Container
-          key ={p.id}
-          name = " mi Jojito lindo"
-          getData={getDataFromChild}
-          />
-        ))
-        }*/}
+        {/*{showModal === true && <Modal onClose={onCloseModal}/>}*/}
+
       </div>
 
   );
 }
-
+/*
+const mapStateToProps = (state) =>{
+  return{
+    showModal:state.ui.showModal,
+  };
+}
+*/
 export default App;

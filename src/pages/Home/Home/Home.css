@@ -15,5 +15,14 @@
     border-color:#5D3810;
     border-radius: 10px;
     margin-top: 50px;
-
 }
+
+.contenedorImagenes{
+    display: flex; /* Utiliza un contenedor flex para alinear las imágenes */
+}
+  
+.imagenes{
+    width: 250px;
+    height: 250px;
+    margin-right: 10px; /* Añade un margen derecho entre las imágenes (opcional) */
+  }

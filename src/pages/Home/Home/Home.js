@@ -4,6 +4,13 @@ import "./Home.css"
 import Barra from "../../../components/Barra/Barra"
 import { Link } from "react-router-dom";
 
+const Imagen = () => {
+    return (
+      <Link to="/">
+          <img src="/imagen1.jpeg" alt="Icono" className="imagenes"/> {/* Cambia la ruta según la ubicación de tu favicon.ico */}
+      </Link>
+    );
+  }
 // Define el componente IconLink fuera de la función Home
 
 
@@ -28,16 +35,18 @@ function Home() {
       <Barra/>
       <div className="estiloTitulo">
         <h1>Left[L]overs</h1>
-      </div>
-      <div>
         <Link to = {"/Stores"}>
           <button className="estiloBoton">
             ¡Come ahora!
           </button>
         </Link>
-
+        <div className="contenedor-imagenes">
+          <Imagen className = "imagenes"/>
+          <Imagen className = "imagenes"/>
+          <Imagen className = "imagenes"/>
+        </div>
       </div>
-    </div>    
+    </div>
   )
 };
 

@@ -8,7 +8,7 @@ import Discover from './pages/Home/Discover/Discover';
 import Help from './pages/Home/Help/Help';
 import Login from './pages/Home/Login/Login';
 //import Modal from './components/Modal/Modal';
-
+//import { setModal } from './store/actions/ui';
 function App(){
   //const [showModal, setShowModal] = useState(true);
 
@@ -28,7 +28,7 @@ function App(){
           <Route path="/login" element = {<Login/>}/>
           </Routes>
         
-        {/*{showModal === true && <Modal onClose={onCloseModal}/>}*/}
+        {/*{showModal === true && <Modal/>}*/}
 
       </div>
 
@@ -40,5 +40,11 @@ const mapStateToProps = (state) =>{
     showModal:state.ui.showModal,
   };
 }
+
+const mapActionsToProps = {
+  setModal
+};
+}
+export default connect (null, mapActionsToProps)(App);
 */
 export default App;

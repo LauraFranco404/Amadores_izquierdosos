@@ -1,12 +1,11 @@
 import "./Login.css"
-//import { useState } from 'react';
 //import Container from "../../../components/Container/Container";
 import Barra from "../../../components/Barra/Barra"
 import { Link } from "react-router-dom";
 // Define el componente IconLink fuera de la función Home
 
-function Login() {
 
+function Login() {
   return (
     <div>
       <Barra/>
@@ -29,6 +28,12 @@ function Login() {
         ¿Aún no tienes una cuenta?
         <Link to ={"/"} className="noRegistro">Registrate</Link>
       </div>
+      <button className="botonContinuar">
+        <Link to = {"/"} className = "textoBoton">Continuar</Link>
+      </button>
+      <p className="errorNoUser">
+        Ingresa un nombre de usuario
+      </p>
     </div>
 )};
 

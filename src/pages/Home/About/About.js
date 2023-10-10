@@ -7,12 +7,14 @@ function About() {
     <div>
       <Barra/>
       <div className="estiloTextoA">
-        <h1>
+        <h2>
           Nuestra familia
-        </h1>
-          Somos una organización consolidada en el año 2023.
-          Luchamos en contra del monstruo de los desperdicios y el hambre, y buscamos llegar a los hogares de todas las familias colombianas.
-          Además los beneficios que obtenemos de la web nos permiten hacer a todos ustedes partícipes de nuestra fundación "comer es vivir".
+        </h2>
+          <p>
+            Somos una organización consolidada en el año 2023.
+          </p>
+            Luchamos en contra del monstruo de los desperdicios y el hambre, y buscamos llegar a los hogares de todas las familias colombianas.
+            Además los beneficios que obtenemos de la web nos permiten hacer a todos ustedes partícipes de nuestra fundación "comer es vivir".
       </div>
     </div>
   )

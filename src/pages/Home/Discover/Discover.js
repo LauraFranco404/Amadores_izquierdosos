@@ -8,12 +8,13 @@ function Discover() {
     <div>
       <Barra/>
       <div className="texto">
-        <h1>
+        <p>
           Comunícate con nosotros.
-        </h1>
-        <h1>
+        </p>
+        <p>
           ¡Tu opinión es muy valiosa!
-        </h1>
+        </p>
+
       </div>
       <div className="tablaContacto">
         <div>

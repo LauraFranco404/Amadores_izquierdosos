@@ -8,23 +8,42 @@
     height: 100px;
     display: flex;
     align-items: center;
-    padding: 0px 20px;
+    padding: 0px 0px;
     margin: 0px;
     text-align: justify;
 }
 
 .estiloElemento{
     color:#5D3810 !important;
+    text-decoration: none;
+    font-size: xxx-large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+
+
 }
 .estiloElemento:active{
     background-color: #E3B974;
     color: #FFFFFF;
+    font-size: xxx-large;
     height: 100px;
+    display: flex-end;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+    font-weight: bold;
+
 }
 .estiloSeleccion{
     background-color: #E3B974;
     color: #FFFFFF;
+    font-size: xxx-large;
     height: 100px;
+    display: flex;
+    align-items: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+
+
 }
 
 .estiloLogIn{
@@ -32,6 +51,11 @@
     border-radius: 10px;
     background-color: #5D3810;
     color: #FFFFFF;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+
+
 }
 .estiloLogInSeleccion{
     border-radius: 10px;
@@ -44,14 +68,18 @@
     text-align: center;
     align-items: center;
     justify-content: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+
 }
 
 .estiloLogo{
     background-color: #5D3810;
-    padding: 17px 17px 17px 17px;
+    padding: 0px 0px 0px 0px;
     margin: 0px;
-    width: 70px;
-    height: 70px;
+    width: 90px;
+    height: 90px;
 }
 
 

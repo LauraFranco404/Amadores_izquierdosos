@@ -27,34 +27,24 @@ function Barra({page, getData}){
             </Link>
 
             <Link to={"/About"} className={`${styles.estiloElemento} ${selectedLink === "/About" ? styles.estiloSeleccion: ""}`}>
-                <h1>
                     Acerca de
-                </h1>
             </Link>
 
             <Link to={"/Stores"} className={`${styles.estiloElemento} ${selectedLink === "/Stores" ? styles.estiloSeleccion: ""}`}>
-                <h1>
                     Tiendas
-                </h1>
             </Link>
 
             <Link to={"/Discover"} className={`${styles.estiloElemento} ${selectedLink === "/Discover" ? styles.estiloSeleccion: ""}`}>
-                <h1>
                     Conócenos
-                </h1>
             </Link>
 
             <Link to={"/Help"} className={`${styles.estiloElemento} ${selectedLink === "/Help" ? styles.estiloSeleccion: ""}`}>
-                <h1>
                     Ayuda
-                </h1>
             </Link>
 
             <Link to={"/Login"}>
                 <button className={`${styles.estiloLogIn} ${selectedLink === "/Login" ? styles.estiloLogInSeleccion: ""}`}>
-                    <h1>
                         Ingrese aquí
-                    </h1>
                 </button>
             </Link>
         </div>

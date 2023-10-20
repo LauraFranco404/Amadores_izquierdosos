@@ -15,44 +15,34 @@ function Stores() {
         </h1>
       </div>
       <div className="tablaTiendas">
-        <div>
           <div className="celdaT">
-           <div className="tiendasD">
-            <h1>
+            <p className="tiendasD">
               KFC
-              <Link to ={"/"} className= "comidaD">Ver menú disponible</Link>
-            </h1>
-            </div>
+            </p>
+            <Link to ={"/"} className= "comidaD">Ver menú disponible</Link>
           </div>
-        </div>
         <div>
           <div className="celdaT">
-            <div className="tiendasD">
-              <h1>
+            <p className="tiendasD">
                 El rinconcito de doña Edilma
-                <Link to ={"/"} className= "comidaD">Ver menú disponible</Link>
-              </h1>
-            </div>
+            </p>
+            <Link to ={"/"} className= "comidaD">Ver menú disponible</Link>
           </div>
         </div>
         <div>
           <div className="celdaT">
-            <div className="tiendasD">
-              <h1>
-                Qbano
-                <Link to ={"/"} className= "comidaD">Ver menú disponible</Link>
-              </h1>
-            </div>
+            <p className="tiendasD">
+              Qbano
+            </p>
+            <Link to ={"/"} className= "comidaD">Ver menú disponible</Link>
           </div>
         </div>
         <div>
           <div className="celdaT">
-            <div className="tiendasD">
-              <h1>
+            <p className="tiendasD">
                 La señora que vende papas en Universidades
-                <Link to ={"/"} className= "comidaD">Ver menú disponible</Link>
-              </h1>
-            </div>
+            </p>
+            <Link to ={"/"} className= "comidaD">Ver menú disponible</Link>
           </div>
         </div>          
     </div>

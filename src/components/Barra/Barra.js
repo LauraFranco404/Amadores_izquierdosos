@@ -44,7 +44,7 @@ function Barra({page, getData}){
 
             <Link to={"/Login"}>
                 <button className={`${styles.estiloLogIn} ${selectedLink === "/Login" ? styles.estiloLogInSeleccion: ""}`}>
-                        Ingrese aquí
+                  Ingrese aquí
                 </button>
             </Link>
         </div>

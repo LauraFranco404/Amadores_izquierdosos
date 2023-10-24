@@ -5,3 +5,33 @@
     text-align: center;
     padding: 0%;
 }
+
+.imagenrodando {
+    margin-top: 100px;
+    width: 100px; /* Ajusta el tamaño según tus necesidades */
+    height: 100px;
+    background-size: cover;
+    position: relative;
+    animation: girarYRodar 4s linear infinite; /* Cambia la duración y otras propiedades según tus preferencias */
+  }
+  
+  /* Definir la animación de giro y rodado */
+  @keyframes girarYRodar {
+    0% {
+      transform: rotate(0deg) translateX(0);
+    }
+    25% {
+      transform: rotate(720deg) translateX(50px); /* Rota 720 grados y se mueve hacia la derecha */
+    }
+    50% {
+      transform: rotate(1440deg) translateX(100px);
+    }
+    75% {
+      transform: rotate(2160deg) translateX(-50px); /* Rota 2160 grados y se mueve hacia la izquierda */
+    }
+    100% {
+      transform: rotate(2880deg) translateX(0);
+    }
+  }
+  
+  

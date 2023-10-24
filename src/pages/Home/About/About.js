@@ -1,6 +1,11 @@
 import "./About.css"
 import Barra from "../../../components/Barra/Barra"
 
+const Galletafeli = () => {
+  return(
+    <img src="/galletafeli.png" alt="Icono" className="imagenrodando"/>
+    )
+}
 
 function About() {
   return (
@@ -16,7 +21,9 @@ function About() {
             Luchamos en contra del monstruo de los desperdicios y el hambre, y buscamos llegar a los hogares de todas las familias colombianas.
             Además los beneficios que obtenemos de la web nos permiten hacer a todos ustedes partícipes de nuestra fundación "comer es vivir".
       </div>
+      <Galletafeli className = "imagenrodando"/>
     </div>
+
   )
 };
 

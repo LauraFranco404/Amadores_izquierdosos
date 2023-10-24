@@ -21,8 +21,8 @@ function Login() {
     if(pass.trim() === ""){
       setMostrarErrorPass(true)
       setTimeout(() => {
-        setMostrarErrorPass(false)
-      })
+        setMostrarErrorPass(false);
+      }, 3000);
     }
 
 };
@@ -45,7 +45,11 @@ function Login() {
         </div>
         <div>
           <div className="celda">
-            <input type="password" placeholder="Contraseña" />
+            <input type="password"
+            placeholder="Contraseña" 
+            value={pass}
+            onChange={(e) => setPass(e.target.value)}
+            />
           </div>
         </div>
       </div>
@@ -59,6 +63,11 @@ function Login() {
       {mostrarErrorUser && (
         <p className="errorNoUser">
           Ingresa un nombre de usuario
+        </p>
+      )}
+      {mostrarErrorPass &&(
+        <p className="errorNoUser">
+          Ingresa una contraseña
         </p>
       )}
     </div>

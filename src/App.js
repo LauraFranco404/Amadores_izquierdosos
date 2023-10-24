@@ -7,6 +7,8 @@ import Stores from './pages/Home/Stores/Stores';
 import Discover from './pages/Home/Discover/Discover';
 import Help from './pages/Home/Help/Help';
 import Login from './pages/Home/Login/Login';
+import NotFound from './pages/Home/NotFound/NotFound';
+
 //import Modal from './components/Modal/Modal';
 //import { setModal } from './store/actions/ui';
 function App(){
@@ -26,6 +28,7 @@ function App(){
           <Route path="/discover" element = {<Discover/>}/>
           <Route path="/help" element = {<Help/>}/>
           <Route path="/login" element = {<Login/>}/>
+          <Route path="/*" element={<NotFound />} /> {/* Ruta 404 */}
           </Routes>
         
         {/*{showModal === true && <Modal/>}*/}

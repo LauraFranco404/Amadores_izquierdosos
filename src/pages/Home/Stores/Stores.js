@@ -19,14 +19,22 @@ function Stores() {
             <p className="tiendasD">
               KFC
             </p>
-            <Link to ={"/"} className= "comidaD">Ver menú disponible</Link>
+            <Link to ={"/"} className="estiloLink">
+              <p className = "comidaD">
+                Ver menú disponible
+              </p>
+              </Link>
           </div>
         <div>
           <div className="celdaT">
             <p className="tiendasD">
                 El rinconcito de doña Edilma
             </p>
-            <Link to ={"/"} className= "comidaD">Ver menú disponible</Link>
+            <Link to ={"/"} className="estiloLink">
+              <p className = "comidaD">
+                Ver menú disponible
+              </p>
+              </Link>
           </div>
         </div>
         <div>
@@ -34,7 +42,11 @@ function Stores() {
             <p className="tiendasD">
               Qbano
             </p>
-            <Link to ={"/"} className= "comidaD">Ver menú disponible</Link>
+            <Link to ={"/"} className="estiloLink">
+              <p className = "comidaD">
+                Ver menú disponible
+              </p>
+              </Link>          
           </div>
         </div>
         <div>
@@ -42,7 +54,11 @@ function Stores() {
             <p className="tiendasD">
                 La señora que vende papas en Universidades
             </p>
-            <Link to ={"/"} className= "comidaD">Ver menú disponible</Link>
+            <Link to ={"/"} className="estiloLink">
+              <p className = "comidaD">
+                Ver menú disponible
+              </p>
+              </Link>          
           </div>
         </div>          
     </div>

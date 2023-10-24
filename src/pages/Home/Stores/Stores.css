@@ -20,7 +20,7 @@
 
 
 .tablaTiendas{
-    width: 50%;
+    width: 60%;
     border-collapse: collapse;
     border: 5px solid;
     border-color: #D29836;
@@ -35,22 +35,33 @@
     padding: 0px;
     background-color:#5D3810;
     display: flex;
-    gap: 96px;
+    /*gap: 100px;
+    */
+    justify-content: space-between;
 }
   
 .tiendasD{
-    font-size: 14px;
+    font-size: 33px;
     color:#D29836;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: left;
     margin-left: 15px;
-
+    font-weight: bold;
+    align-items: center;
 
 }
 
 .comidaD{
-    font-size: 14px;
+    font-size: 33px;
     color: #A29182;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+
+    
+}
+
+.estiloLink{
+    text-decoration: none;
     text-align: right;
+    margin-right: 15px;
 }

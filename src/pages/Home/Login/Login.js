@@ -5,12 +5,20 @@ import { Link } from "react-router-dom";
 import React, {useState} from "react";
 // Define el componente IconLink fuera de la función Home
 
+const Galletafeli = () => {
+  return(
+    <img src="/galletafeli.png" alt="Icono" className="galletaCarga"/>
+    )
+}
 
 function Login() {
   const[mostrarErrorUser, setMostrarErrorUserUser] = useState(false);
-  const[mostrarErrorPass, setMostrarErrorPass] = useState(false)
-  const[nombreUser, setNombreUser] = useState("")
+  const[mostrarErrorPass, setMostrarErrorPass] = useState(false);
+  const[mostrarCarga, setMostrarCarga] = useState(false);
+  const [mostrarBoton, setMostrarBoton] = useState(true)
+  const[nombreUser, setNombreUser] = useState("");
   const[pass, setPass]  =useState("")
+
   const ContinuarClick = () =>{
     if(nombreUser.trim() === ""){
       setMostrarErrorUserUser(true)
@@ -24,7 +32,10 @@ function Login() {
         setMostrarErrorPass(false);
       }, 3000);
     }
-
+    else if (nombreUser.trim() !== "" && pass.trim() !== ""){
+      setMostrarCarga(true)
+      setMostrarBoton(false)
+    }
 };
 
   return (
@@ -57,9 +68,11 @@ function Login() {
         ¿Aún no tienes una cuenta?
         <Link to ={"/"} className="noRegistro">Registrate</Link>
       </div>
+      {mostrarBoton &&(
       <button className="botonContinuar" onClick={ContinuarClick}>
         <p className = "textoBoton">Continuar</p>
       </button>
+      )}
       {mostrarErrorUser && (
         <p className="errorNoUser">
           Ingresa un nombre de usuario
@@ -70,6 +83,11 @@ function Login() {
           Ingresa una contraseña
         </p>
       )}
+      {mostrarCarga &&(
+        <Galletafeli className = "galletaCarga"/>
+      )
+      
+      }
     </div>
 )};
 

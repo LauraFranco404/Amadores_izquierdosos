@@ -69,4 +69,24 @@ input{
     font-size: 40px;
 }
 
-/*space between*/
+.galletaCarga{
+    margin-top: 50px;
+    width: 100px; /* Ajusta el tamaño según tus necesidades */
+    height: 100px;
+    background-size: cover;
+    position: relative;
+    animation: gira 2s linear infinite; /* Cambia la duración y otras propiedades según tus preferencias */
+    margin-bottom: 100px;
+}
+  
+  @keyframes gira {
+    0% {
+      transform:rotate(0deg);
+    }
+    50% {
+      transform:rotate(360deg); 
+    }
+
+
+}
+  
